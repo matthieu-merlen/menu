@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(179, 179, 179, 0.842);
+    font-size: 150%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    color: black; /* met les liens en noirs */ 
+}
+
+#photo{
+    position:absolute;
+    top: 2%;
+    right: 1%;
+    width: 200px;
+    height: 100px;
+}
+
+#form {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 99%;
+    font-size: 1em;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #0645AD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #042e78;
+}
